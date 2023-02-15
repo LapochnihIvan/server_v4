@@ -1,4 +1,4 @@
-call D:\keys\server.bat
+call C:\keys\server3.bat
 
 @REM set ip=127.0.0.1
 
@@ -8,4 +8,4 @@ call D:\keys\server.bat
 @REM set user_name=user
 @REM set user_password=123
 
-@REM set project_url=https://github.com/r-comrad/server_3.0.git
+@REM set project_url=https://github.com/LapochnihIvan/server_3.0.git
