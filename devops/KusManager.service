@@ -6,8 +6,8 @@ After=syslog.target network-online.target
 
 [Service]
 Type=simple
-ExecStart=/home/rcomrad/server/bin/Server.exe
-WorkingDirectory=/home/rcomrad/server/bin
+ExecStart=/home/ivan/server/bin/Server.exe
+WorkingDirectory=/home/ivan/server/bin
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=KusManager
@@ -30,12 +30,12 @@ WantedBy=multi-user.target
 # sudo journalctl -u KusManager
 # sudo journalctl -u KusManager --since "2023-02-15 01:10:00"
 
-# scp rcomrad@194.87.206.68:/home/rcomrad/logs D:/logs
+# scp ivan@194.87.206.68:/home/ivan/logs D:/logs
 
 # Type=simple
-# ExecStart=/home/rcomrad/server/bin/Server.exe
-# StandardOutput=/home/rcomrad/server/log1.log
-# StandardError=/home/rcomrad/server/log2.log
+# ExecStart=/home/ivan/server/bin/Server.exe
+# StandardOutput=/home/ivan/server/log1.log
+# StandardError=/home/ivan/server/log2.log
 # Restart=on-failure
 # RestartSec=10
 # KillMode=process
